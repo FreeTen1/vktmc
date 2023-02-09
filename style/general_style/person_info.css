@@ -1,0 +1,44 @@
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 557px;
+}
+section nav ul{
+    display:flex ;
+    flex: auto;
+    height: 15px;
+}
+section nav ul li{
+    display:inline ;
+    font-weight: bold;
+    cursor: pointer;
+}
+#profil{
+    position: relative; 
+    right: 15px; 
+    display: flex; 
+    flex-direction: row; 
+    cursor: pointer;
+}
+.next{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 18px;
+}
+#userName{
+    margin: 10px; 
+    display: flex; 
+    align-items: center; 
+    font-weight: bold;
+}
+#userPhoto{ 
+    margin: 10px; 
+    display: flex; 
+    align-items: center;
+}

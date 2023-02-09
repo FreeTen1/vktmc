@@ -1,0 +1,124 @@
+/* ширина строк */
+.checkbox_row {width: 4%;}
+.application_id_row {width: 4%;}
+.fio_row {width: 16%;}
+.departament_row {width: 14%;}
+.status_row {width: 17%;}
+.type_row {width: 13%;}
+.responsible_cma_row {width: 16%;}
+.responsible_tb_row {width: 16%;}
+
+/* ширина строк для таблицы заявок */
+.number_comparison_row {width: 5%;}
+.nm_code_comparison_row {width: 8%;}
+.product_name_comparison_row {width: 9%; word-break: break-word;}
+.product_type_comparison_row {width: 9%; word-break: break-word;}
+.ntd_comparison_row {width: 9%; word-break: break-word;}
+.extra_options_comparison_row {width: 10%; word-break: break-word;}
+.measure_comparison_row {width: 5%;}
+.product_group_comparison_row {width: 5%;}
+.sample_size_comparison_row {width: 7%;}
+.article_group_comparison_row {width: 7%;}
+.note_comparison_row {width: 9%; word-break: break-word;}
+.item_number_comparison_row {width: 6%; word-break: break-word;}
+.delete_comparison_row {width: 5%;}
+.make_main_comparison_row {width: 5%;}
+
+#application_comparison .button {
+    width: 90%;
+    font-size: 0.7vw;
+}
+
+.head_row {
+    width: calc(100% - 8px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.3);
+    height: 37px;
+}
+
+.head_row div:last-child {
+    border-right: none;
+}
+
+.head_col {
+    min-height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.application_row div:last-child {
+    border-right: none;
+}
+
+.application_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(107, 107, 107, 0.3);
+    min-height: 37px;
+    transition: 0.5s;
+}
+
+.application_row div:last-child {
+    border-right: none;
+}
+
+.col {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 0 5px 9px;
+    display: flex;
+    align-items: center;
+}
+
+/* Заявки требующие действий */
+.application_action_row {
+    cursor: pointer;
+}
+
+.application_action_row:hover {
+    background-color: azure;
+}
+
+/* Заявки в ожидании  */
+.application_await_row {
+    cursor: pointer;
+}
+
+.application_await_row:hover {
+    background-color: azure;
+}
+/* Завершённые заявки */
+.completed_application {
+    height: 100%;
+}
+/* черновики */
+.draft_application {
+    height: 100%;
+}
+.application_draft_row {
+    cursor: pointer;
+}
+.application_draft_row:hover {
+    background-color: azure;
+}
+
+/* Завершённые заявки */
+.application_completed_row {
+    cursor: pointer;
+}
+.application_completed_row:hover {
+    background-color: azure;
+}
+
+/* сравнение заявок */
+.comparison_application {
+    height: 100%;
+    width: 99%;
+}
+.comparison_application .head_col {
+    word-wrap: break-word;
+}

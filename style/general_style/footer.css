@@ -1,0 +1,36 @@
+#window_footer {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -2px 4px rgb(0 0 0 / 25%);
+}
+#window_footer img{
+    width: 460px;
+    height: 41px;
+}
+
+#window_footer #instructions{
+    cursor: pointer;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+
+#window_footer #instructions img{
+    width: 35px;
+    height: 35px;
+}
+#window_footer #instructions p{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #716D6D;
+}

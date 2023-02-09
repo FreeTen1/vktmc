@@ -1,0 +1,54 @@
+#comparison_rows_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 30%;
+    top: 20%;
+    width: 38%;
+    left: 31%;
+    border: 1px solid #4F4D4D;
+    background-color: #F0EFEF;
+}
+
+#comparison_div_head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D3DBF0;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#comparison_div_head p {
+    font-size: 16px;
+    color: rgba(18, 82, 247, 0.6);
+    font-weight: 800;
+}
+#comparison_div_head img {
+    cursor: pointer;
+}
+
+
+
+#comparison_div_main_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    height: 70%;
+}
+
+    #comparison_div_main_block input {
+        width: 54%;
+        height: 27px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+        border-radius: 7px;
+        border: none;
+        padding-left: 8px;
+        margin: 0 10px;
+    }
+    #comparison_div_main_block .button {
+        width: 39%;
+    }

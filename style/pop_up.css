@@ -1,0 +1,31 @@
+#pop_up_div {
+    width: 208px;
+    background: #E5E5E5;
+    border: 1px solid rgba(86, 77, 78, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pop_up_div div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    background: #FFFFFF;
+    border: 1px solid rgba(197, 197, 197, 0.61);
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin: 5px 24px;
+    transition: 0.2s;
+}
+#pop_up_div div:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+}
+#pop_up_div hr{
+    border: 1px solid #C4C4C4;
+}

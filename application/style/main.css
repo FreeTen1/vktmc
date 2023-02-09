@@ -1,0 +1,187 @@
+li a {
+    text-decoration: none;
+    color: black;
+}
+#main_markers_div {
+    display: flex;
+    align-items: end;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+}
+.my_checkbox {
+    cursor: pointer;
+    width: 90%;
+    height: 20px;
+}
+.markers {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+
+    width: 11%;
+    align-items: center;
+    min-height: 55%;
+    cursor: pointer;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+
+    border-radius: 10px 10px 0 0;
+    background: white;
+
+    opacity: 0.4;
+
+    text-align: center;
+
+    transition: 0.2s;
+}
+.markers:hover {
+    min-height: 75%;
+}
+
+.selected_marker {
+    font-weight: bold;
+    opacity: 1;
+}
+
+#main_tables {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.application_table_divs {
+    width: 90%;
+    margin-top: 20px;
+    height: 46%;
+    box-sizing: border-box;
+}
+
+select {
+    width: 95%;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border: 1px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.div_for_table {
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 100%;
+    height: 95%;
+    margin-top: 7px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.application_scroll_row_div {
+    width: 100%;
+    height: calc(100% - 37px);
+    overflow-y: scroll;
+}
+
+.application_scroll_row_div .application_row:last-child {
+    border-bottom: none;
+}
+
+.application_scroll_row_div::-webkit-scrollbar {
+    width: 8px;
+    background: white;
+}
+
+.application_scroll_row_div::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: rgba(208, 206, 206, 0.8);
+    border-radius: 6px;
+}
+
+#footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+#footer img {
+    margin-top: 15px;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    background: #FFFFFF;
+    text-align: center;
+}
+.button:hover {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 19%);
+}
+.button:active {
+    background-color: #e3e3e3;
+}
+#send_many_applications, #delete_all_comparison_rows, #delete_many_applications {
+    width: 18%;
+    background-color: rgba(70, 87, 243, 0.3);
+    border: 1px solid rgba(70, 87, 243, 0.1);
+}
+#id312 {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 7px 0;
+}
+#smt_id1 {
+    display: flex;
+    justify-content: space-between;
+}
+#smt_id1 select {
+    width: 21%;
+}
+/* for js */
+.display_none {
+    display: none;
+}
+.display_flex {
+    display: flex;
+}
+
+.purple_button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 34px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 15%);
+    background: #BEC3F2;
+    text-align: center;
+    height: 30px;
+}
+.purple_button:hover {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 19%);
+}
+.purple_button:active {
+    background-color: #e3e3e3;
+}
+.purple_button img {
+    margin-right: 7px;
+}
